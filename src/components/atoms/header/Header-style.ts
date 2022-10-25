@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const StyledDiv = styled.div`
-background-color: red;
-color: #e1e1e1;
-border: 1px solid red;
-height: 400px;
-width: 300px;
+background-color: white;
+color: black;
+border: 1px solid grey;
+height: 76px;
+width: 100vw;
 `;
