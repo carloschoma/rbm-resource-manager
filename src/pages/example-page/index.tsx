@@ -8,11 +8,11 @@ import React from "react";
 export default function ExamplePage() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       {/* <ExampleAtom /> */}
-      <Input  placeholder="email@rbmweb.com.br"/>
+      {/* <Input  placeholder="email@rbmweb.com.br"/>
       <Input  placeholder="Digite sua senha"/>
-      <Text tag={'h4'}>aasdasds</Text>
+      <Text tag={'h4'}>aasdasds</Text> */}
       <SpanInput childrenSpan="teste"/>
     </>
   );
