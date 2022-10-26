@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const StyledText = styled.span`
+  font-family: "Poppins";
+  font-size: {({fontSize}) => fontSize}px;
   color: #e1e1e1;
   border-radius: 6px;
   width: 410px;
@@ -8,5 +10,6 @@ export const StyledText = styled.span`
   top:  423px;
   left: 857px;
   color: #262424;
+  
 `;
 
