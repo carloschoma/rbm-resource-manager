@@ -12,7 +12,11 @@ export default function Main() {
                 </Styled.StyledSection>
             </>
             <>
-                <Styled.StyledSection>2222222222222222222222222222222222222222222222</Styled.StyledSection>
+                <Styled.StyledSection>
+                    <Styled.styleddiv>
+                    <Styled.styledFrame/>
+                    </Styled.styleddiv>
+                </Styled.StyledSection>
             </>
         </Styled.StyledMain>
     );  
