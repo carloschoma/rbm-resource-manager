@@ -4,13 +4,15 @@ import SpanInput from "components/atoms/SpanInput/SpanInput";
 import Input from "components/particules/Input/Input";
 import Text from "components/particules/Text/Text";
 import React from "react";
+import Main from 'components/molecules/Main/Main';
 
 export default function ExamplePage() {
   return (
     <>
       <Header>
-        {" "}
+        {""}
       </Header>
+      <Main />
       {/* <ExampleAtom /> */}
       {/* <Input  placeholder="email@rbmweb.com.br"/>
       <Input  placeholder="Digite sua senha"/>
