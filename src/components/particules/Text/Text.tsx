@@ -1,15 +1,17 @@
 import * as Styled from "./Text-style";
 import React from 'react'
 
-type TextProps = {
+export type TextProps = {
   tag: any;
-  children: string;
+  children: string | any[];
   fontSize?: string;
+  color?: string;
+  weight?: string;
 };
 
 export default function Text(props: TextProps) {
   return (
-    <Styled.StyledText as={props.tag} fontSize={props.fontSize}>{props.children}</Styled.StyledText>
+    <Styled.StyledText as={props.tag} fontSize={props.fontSize} color={props.color} weight={props.weight} >{props.children}</Styled.StyledText>
   )
 }
 

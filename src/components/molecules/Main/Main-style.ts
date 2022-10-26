@@ -11,12 +11,15 @@ export const StyledMain = styled.main`
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    gap:76px
 `;
 
 
 export const StyledSection = styled.section`
     padding: 108px;
-    /* background: #ffffff; */
     height: 100%;
+`;
+
+export const StyledDiv = styled.div`
+    display: flex;
+    flex-direction: column;
 `;
