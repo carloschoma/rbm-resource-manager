@@ -4,16 +4,15 @@ import React from "react";
 import * as Styled from "./SpanInput-style";
 
 type SpanInputProps = {
-  childrenSpan: string;
+  spanText: string;
   span?: boolean
 };
 
 export default function SpanInput(props: SpanInputProps) {
   return (
     <Styled.StyledDiv>
-      {props.span && <Text tag={"span"}>{props.childrenSpan}</Text>}
+      {props.span && <Text tag={"span"}>{props.spanText}</Text>}
       <Input color="red"/>
-      <Styled.StyledInput></Styled.StyledInput>
     </Styled.StyledDiv>
   );
 }
