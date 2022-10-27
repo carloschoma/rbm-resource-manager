@@ -27,10 +27,15 @@ export const styledFrame = styled.div`
 
 export const styleddiv = styled.div`
 
-display: flex;
-justify-content: center;
-align-items: center;
-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   height: 100%;
 
+`;
+
+export const StyledDiv = styled.div`
+    display: flex;
+    flex-direction: column;
 `;
