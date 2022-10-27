@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledMain = styled.main`
   position: absolute;
-  width: 1440px;
-  height: 948px;
+  width: 100%;
+  height: calc(100% - 76px);
   left: 0px;
   top: 76px;
   background: #e1eef3;
@@ -15,6 +15,8 @@ export const StyledMain = styled.main`
 
 export const StyledSection = styled.section`
   /* background: #ffffff; */
+  display: flex;
+  justify-content: center;
   width: 720px;
   height: 100%;
 `;
@@ -27,11 +29,14 @@ height: 100%;
 `;
 
 export const styledDiv = styled.div`
-
-
-   padding-right: 140px;
-   padding-top: 105px;
-   padding-bottom: 182px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-right: 140px;
+    padding-top: 105px;
+    padding-bottom: 182px;
 `;
 
 export const StyledDiv = styled.div`

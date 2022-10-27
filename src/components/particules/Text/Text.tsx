@@ -7,10 +7,16 @@ export type TextProps = {
   fontSize?: string;
   color?: string;
   weight?: string;
+  width?: string;
 };
 
 export default function Text(props: TextProps) {
   return (
-    <Styled.StyledText as={props.tag} fontSize={props.fontSize} color={props.color} weight={props.weight} >{props.children}</Styled.StyledText>
+    <Styled.StyledText 
+    as={props.tag} 
+    fontSize={props.fontSize} 
+    color={props.color} 
+    weight={props.weight} 
+    width={props.width}>{props.children}</Styled.StyledText>
   )
 }
