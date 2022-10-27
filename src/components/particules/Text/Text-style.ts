@@ -1,15 +1,16 @@
+import { TextProps } from 'components/particules/Text/Text';
 import styled from "styled-components";
 
-export const StyledText = styled.span`
+export const StyledText = styled.span<TextProps>`
   font-family: "Poppins";
-  font-size: {({fontSize}) => fontSize}px;
-  color: #e1e1e1;
+  font-size: ${(props) => props.fontSize}px;
+  color: ${(props) => props.color};
   border-radius: 6px;
   width: 410px;
   height: 54px;
   top:  423px;
   left: 857px;
-  color: #262424;
-  
+  font-weight: ${(props) => props.weight};
+  display: block;
+  padding-bottom: 25px;
 `;
-
