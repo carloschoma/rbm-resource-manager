@@ -20,18 +20,18 @@ export const StyledSection = styled.section`
 `;
 
 export const styledFrame = styled.div`
-  width: 475px;
-  height: 661px;
+
+width: 100%;
+height: 100%;
+
 `;
 
 export const styledDiv = styled.div`
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  height: 100%;
 
+   padding-right: 140px;
+   padding-top: 105px;
+   padding-bottom: 182px;
 `;
 
 export const StyledDiv = styled.div`
