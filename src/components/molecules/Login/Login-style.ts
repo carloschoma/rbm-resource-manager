@@ -2,7 +2,13 @@ import styled from "styled-components";
 
 export const StyledLogin = styled.div`
   background-color: white;
-  height: 100%;
-  width: 100%;
+  padding-left: 32px;
+  padding-right: 33px;
+  padding-top: 42px;
+  padding-bottom: 88px;
+  justify-content: center;
+
+
+  
 `;
 
