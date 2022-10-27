@@ -14,4 +14,3 @@ export const StyledText = styled.span<TextProps>`
   display: block;
   padding-bottom: 25px;
 `;
-

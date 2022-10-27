@@ -14,4 +14,3 @@ export default function Text(props: TextProps) {
     <Styled.StyledText as={props.tag} fontSize={props.fontSize} color={props.color} weight={props.weight} >{props.children}</Styled.StyledText>
   )
 }
-
