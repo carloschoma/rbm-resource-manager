@@ -22,10 +22,9 @@ export const StyledSection = styled.section`
 export const styledFrame = styled.div`
   width: 475px;
   height: 661px;
-  background-color: white;
 `;
 
-export const styleddiv = styled.div`
+export const styledDiv = styled.div`
 
 display: flex;
 justify-content: center;

@@ -1,6 +1,7 @@
 import React from 'react'
 import Text from 'components/particules/Text/Text';
 import * as Styled from'./Main-style';
+import Login from '../Login/Login';
 
 export default function Main() {
     return (
@@ -13,9 +14,11 @@ export default function Main() {
             </>
             <>
                 <Styled.StyledSection>
-                    <Styled.styleddiv>
-                    <Styled.styledFrame/>
-                    </Styled.styleddiv>
+                    <Styled.styledDiv>
+                    <Styled.styledFrame>
+                        <Login/>
+                        </Styled.styledFrame>
+                    </Styled.styledDiv>
                 </Styled.StyledSection>
             </>
         </Styled.StyledMain>
