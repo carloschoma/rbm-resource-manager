@@ -5,14 +5,15 @@ import * as Styled from "./SpanInput-style";
 
 type SpanInputProps = {
   spanText: string;
-  span?: boolean
+  type: 'password' | 'text' | 'number';
+  placeholder?: string;
 };
 
 export default function SpanInput(props: SpanInputProps) {
   return (
     <Styled.StyledDiv>
-      {props.span && <Text tag={"span"}>{props.spanText}</Text>}
-      <Input color="red"/>
+      {props.spanText && <Text tag={"span"}>{props.spanText}</Text>}
+      <Input type={props.type} placeholder={props.placeholder}/>
     </Styled.StyledDiv>
   );
 }

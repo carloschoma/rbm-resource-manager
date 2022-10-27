@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
-export const StyledDiv = styled.div`
+export const StyledHeader = styled.header`
   position: absolute;
-  width: 1440px;
   height: 76px;
-  left: 0px;
-  top: 0px;
+  display: flex;
+  padding: 25px 0px 35.04px 45px;
   background: #FFFFFF;
 `;
 
