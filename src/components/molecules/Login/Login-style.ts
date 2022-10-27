@@ -6,6 +6,7 @@ export const StyledLogin = styled.div`
   padding-right: 33px;
   padding-top: 42px;
   padding-bottom: 88px;
+  justify-content: center;
 
 
   
