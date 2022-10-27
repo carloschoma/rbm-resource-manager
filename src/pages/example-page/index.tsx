@@ -5,19 +5,17 @@ import Input from "components/particules/Input/Input";
 import Text from "components/particules/Text/Text";
 import React from "react";
 import Main from 'components/molecules/Main/Main';
+import Logoimg from "components/particules/Logoimg/Logoimg";
 
 export default function ExamplePage() {
   return (
     <>
       <Header>
-        {""}
+       <Logoimg />
       </Header>
       <Main />
       {/* <ExampleAtom /> */}
-      {/* <Input  placeholder="email@rbmweb.com.br"/>
-      <Input  placeholder="Digite sua senha"/>
-      <Text tag={'h4'}>aasdasds</Text> */}
-      {/* <SpanInput spanText="teste"/> */}
+      {/* <SpanInput type="text" placeholder="Digite seu e-mail" spanText="E-mail"/> */}
     </>
   );
 }
