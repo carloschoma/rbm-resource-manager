@@ -4,7 +4,7 @@ import React from "react";
 import * as Styled from "./SpanInput-style";
 
 type SpanInputProps = {
-  spanText: string;
+  spanText?: string;
   type: 'password' | 'text' | 'number';
   placeholder?: string;
 };
