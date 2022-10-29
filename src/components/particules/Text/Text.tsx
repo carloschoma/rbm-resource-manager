@@ -8,6 +8,10 @@ export type TextProps = {
   color?: string;
   weight?: string;
   width?: string;
+  height?: string;
+  lineHeight?: string;
+  padding?: string;
+  margin?: string;
 };
 
 export default function Text(props: TextProps) {
@@ -17,6 +21,10 @@ export default function Text(props: TextProps) {
     fontSize={props.fontSize} 
     color={props.color} 
     weight={props.weight} 
-    width={props.width}>{props.children}</Styled.StyledText>
+    width={props.width}
+    height={props.height}
+    lineHeight={props.lineHeight}
+    padding={props.padding}
+    margin={props.margin}>{props.children}</Styled.StyledText>
   )
 }
