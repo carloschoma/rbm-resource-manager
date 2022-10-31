@@ -10,7 +10,6 @@ export const StyledMain = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 `;
 
 export const StyledSection = styled.section`
