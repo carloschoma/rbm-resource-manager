@@ -6,4 +6,5 @@ export const StyledText = styled.span<TextProps>`
   font-size: ${(props) => props.fontSize}px;
   color: ${(props) => props.color};
   font-weight: ${(props) => props.weight};
+  margin: ${(props)=>props.margin};
 `;

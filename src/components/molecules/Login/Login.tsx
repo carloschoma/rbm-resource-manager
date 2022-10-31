@@ -8,11 +8,11 @@ import Button from "components/particules/Button/Button";
 export default function Login() {
   return (
     <Styled.StyledLogin>
+        <Styled.StyledDiv>
       <Logoimg />
-      <Text tag={"h1"}>Entrar na minha conta</Text>
-      <Text tag={"p"} weight="400">
-        Entrar na minha conta
-      </Text>
+      <Text tag={"h1"} margin="54px 0px 10px 0px">Entrar na minha conta</Text>
+      <Text tag={"p"} margin="0px 0px 32px 0px" weight="400">Acesse sua conta abaixo =)</Text>
+      </Styled.StyledDiv>
       <SpanInput
         spanText="E-mail"
         type="text"
