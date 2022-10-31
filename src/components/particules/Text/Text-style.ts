@@ -5,6 +5,11 @@ export const StyledText = styled.span<TextProps>`
   font-family: "Poppins";
   font-size: ${(props) => props.fontSize}px;
   color: ${(props) => props.color};
-  font-weight: ${(props) => props.weight};
-  margin: ${(props)=>props.margin};
+  border-radius: 6px; 
+  width: ${(props) => props.width}px;
+  font-weight: ${(props) => props.weight}
+  height: ${(props) => props.height}px;
+  line-height: ${(props) => props.lineHeight}px;
+  padding: ${(props) => props.padding};
+  margin: ${(props) => props.margin};
 `;
