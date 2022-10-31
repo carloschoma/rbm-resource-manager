@@ -7,7 +7,7 @@ export const StyledText = styled.span<TextProps>`
   color: ${(props) => props.color};
   border-radius: 6px; 
   width: ${(props) => props.width}px;
-  font-weight: ${(props) => props.weight};
+  font-weight: ${(props) => props.weight}
   height: ${(props) => props.height}px;
   line-height: ${(props) => props.lineHeight}px;
   padding: ${(props) => props.padding};

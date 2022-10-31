@@ -12,10 +12,13 @@ export type TextProps = {
   lineHeight?: string;
   padding?: string;
   margin?: string;
+
 };
 
 export default function Text(props: TextProps) {
   return (
+
+    <Styled.StyledText as={props.tag} margin={props.margin} fontSize={props.fontSize} color={props.color} weight={props.weight} >{props.children}</Styled.StyledText>
     <Styled.StyledText 
     as={props.tag} 
     fontSize={props.fontSize} 
@@ -26,5 +29,7 @@ export default function Text(props: TextProps) {
     lineHeight={props.lineHeight}
     padding={props.padding}
     margin={props.margin}>{props.children}</Styled.StyledText>
+
   )
 }
+ 
