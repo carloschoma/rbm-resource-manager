@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Text from 'components/particules/Text/Text';
 import * as Styled from'./Main-style';
 import Login from '../Login/Login';
@@ -6,6 +6,27 @@ import { StyledDiv } from '../Login/Login-style';
 import { styledDiv } from './Main-style';
 
 export default function Main() {
+
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
+    // como fazer o login chegar no botão do componente Login?
+    function login(){
+        let raw = JSON.stringify({
+            "login": email,
+            "senha": senha,
+        })
+        let requestOptions = {
+            method: 'POST',
+            body: raw,
+        };
+
+        fetch("https://agendamento.carloschoma.com.br/login", requestOptions)
+        .then(response => response.text())
+        .then(result => console.log(result))
+        .catch(error => console.log('error', error));
+    }
+
+
     return (
         <Styled.StyledMain>
  
@@ -50,13 +71,13 @@ export default function Main() {
                 </Styled.StyledDiv>
             </Styled.StyledSection>
 
-              <Styled.StyledSection>
-                  <Styled.styledDiv>
-                  <Styled.styledFrame>
-                      <Login/>
-                      </Styled.styledFrame>
-                  </Styled.styledDiv>
-              </Styled.StyledSection>
+            <Styled.StyledSection>
+                <Styled.styledDiv>
+                <Styled.styledFrame>
+                    <Login/>
+                    </Styled.styledFrame>
+                </Styled.styledDiv>
+            </Styled.StyledSection>
 
         </Styled.StyledMain>
     );  
